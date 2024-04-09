@@ -2716,7 +2716,7 @@ paths:
 
         > 🚧 Returns at most 1 000 rows
         >
-        > The request returns a maximum of 1 000 rows regardless of the limit specified in the SQL-statement.
+        > The request returns a maximum of 1 000 rows regardless of the specified limit.
       security:
         - BaseTokenAuth: []
       parameters:
